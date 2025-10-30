@@ -1,0 +1,23 @@
+{
+    "name": "bark-server",
+    "main": "main.js",
+    "compatibility_date": "2025-03-01",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "d1_databases": [
+        {
+            "binding": "database",
+            "database_name": "bark",
+            "database_id": "5856d6a7-cf25-4dcf-9b6a-e6397394fd42"
+        }
+    ],
+    "vars": {
+        "ALLOW_NEW_DEVICE": "true",
+        "ALLOW_QUERY_NUMS": "true",
+        "ROOT_PATH": "/"
+    }
+}
